@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.4em;
+    vertical-align: baseline;
+    text-decoration: none;
+    outline: 0;
+}
+
+	/*------------ OGÓLNE KLASY ----------*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.width{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.clear{
+	clear:both;
+}
+
+h3{
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 25px;
+	padding-top: 70px;
+}
+
+h4{
+	color: #333333;
+	margin-top: 25px;
+}
+
+	/*----------- KLASY SZCZEGÓŁOWE ---------------*/
+
+	/*------------ PIERWSZA BELKA -------------*/
+.mainContainer{
+	background-color: #4ca368;
+	width: 100%;
+}
+
+.socialAndContact{
+	width: 100%;
+	background-color: #282828;
+	height: 37px;
+}
+
+.social, .contact{
+	padding-top: 10px;
+	font-size: 14px;
+}
+
+.contact p, .contact i{
+	display: inline-block;
+}
+
+.contact p{
+	color: white;
+	font-weight: 300;
+	padding-left: 4px;
+}
+
+.contact > div{
+	margin-left: 15px;
+}
+
+.social i:hover, .contact div:hover{  /*---dokończyć hover, bo same elementy nie działają---*/
+	cursor: pointer;
+	background-color: #4ca368;
+	border-radius: 50px;
+}
+
+
+		/*--------------- DRUGA BELKA -------------*/
+.logoAndMenu{
+	background-color: #ffffff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 1);
+	height: 65px;
+}
+
+h1{
+	font-family: 'Expletus Sans', cursive;
+	font-size: 25px;
+	color: #636666;
+	position: relative;
+	top: 15px;
+}
+
+nav{
+	position: relative;
+	bottom: 20px;
+}
+
+.logoAndMenu li{
+	float: left;
+	list-style: none;
+	font-size: 14px;
+	margin-left: 50px;
+}
+
+.logoAndMenu li a{
+	display: block;
+	padding: 10px 20px;
+	color: black;
+	font-weight: 600;
+}
+
+.logoAndMenu li a:hover{
+	color: #5db442;
+	padding: 9px 19px;
+	border: 1px solid #5db442;
+	border-radius: 25px;
+}
+
+		/*---------- TRZECIA BELKA ---------*/
+.introductionOfWebsite{
+	padding-top: 90px;
+}
+
+h2{
+	font-size: 43px;
+	text-align: center;
+	font-weight: 400;
+}
+
+.introductionOfWebsite p:nth-child(2){
+	text-align: center;
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	font-weight: 300;
+}
+
+.introductionOfWebsite img{
+	width: 390px;
+	height: 251px;
+	position: relative;
+	left: 400px;
+}
+
+.introductionOfWebsite input[type="text"]{
+	display: inline;
+	height: 30px;
+	padding-left: 5px;
+	border: 2px solid #37804e;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	margin: 0;
+	margin-left: 480px;
+	margin-top: 30px;
+}
+
+.introductionOfWebsite input[type="button"]{
+	display: inline;
+	height: 34px;
+	background-color: #37804e;
+	color: white;
+	margin: 0;
+	padding: 0 10px;
+	position: relative;
+	right: 4px;
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+}
+
+.introductionOfWebsite input[type="button"]:hover{
+	cursor: pointer;
+	background-color: #5db442;
+}
+
+.introductionOfWebsite p:nth-of-type(2){
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 45px;
+	font-weight: 300;
+	font-size: 12px;
+}
+
+.introductionOfWebsite p:nth-of-type(2):hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+		/*------------ CZWARTA BELKA ---------*/
+.signUp{
+	background-color: #ececec;
+}
+
+.signUpProcess{
+	background-color: white;
+	width: 560px;
+	margin: 0 auto;
+	border: 4px solid #e3e3e3;
+	padding: 70px;
+}
+
+.signUpProcess > .icon-edit:before{
+	font-size: 70px;
+	padding-left: 100px;
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+.signUpProcess p:nth-of-type(1){
+	font-size: 22px;
+	color: #6cba55;
+	margin-bottom: 15px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.signUpProcess p:nth-child(n+2){
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.signUpProcess a{
+	color: black;
+}
+
+.center{
+	margin: 0 auto;
+	width: 634px;
+	text-align: center;
+}
+
+.center > div{
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.center > div:nth-child(n+2){
+	margin-left: 80px;
+}
+
+.center > div:nth-of-type(1){
+	margin-left: 20px; 
+}
+
+.center > div > p{
+	margin-top: 15px;
+	font-weight: 300;
+}
+
+.roundBorderDivs{
+	border:1px solid #6cba55;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#firstRoundBorderDiv{
+	background-color: #6cba55;
+}
+
+.secondAndThirdRoundBorderDivs{
+	background-color: white;
+}
+
+
+		/*--------- PIĄTA BELKA -------------*/
+.offert{
+	background-color: white;
+}
+
+.choiceOfEditionBorder{
+	border: solid 1px #DEDEDE;
+	border-radius: 50px;
+	width: 380px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 12.5px;
+}
+
+.choiceOfEditionBorder > div > p:nth-of-type(1){
+	background-color: #5db442;
+	color: white;
+	display: block;
+	width: 50%;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.choiceOfEditionBorder > div > p:nth-of-type(2){
+	width: 50%;
+}
+
+.choiceOfEditionBorder > div > p:nth-of-type(1), .choiceOfEditionBorder > div > p:nth-of-type(2){
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.orBorder{
+	color: white;
+	background-color: #4ca368;
+	border-radius: 50%;
+	padding: 2px;
+	/*z-index: -1;*/
+	position: relative;
+	left: 595px;
+	bottom: 32px;
+}
+
+ .singleOptionOfEdition{
+	border: 1px solid #dbdbdb;
+	width: 300px;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.marginOption2, .marginOption3{
+	margin-left: 130px;
+}
+
+.singleOptionOfEdition > hr{
+	background-color: #dbdbdb;
+	height: 1px;
+	width: 100%;
+	margin-top: 90px; 
+}
+
+.singleOptionofEditionPriceBorder{
+	background-color: white;
+	border: 2px solid #6bba52;
+	border-radius: 50%;
+	width: 33%;
+	height: 100px;
+	position: relative;
+	bottom: 50px;
+	left: 100px;
+}
+
+.singleOptionofEditionPriceBorder p:nth-of-type(1){
+	font-size: 26px;
+	margin-top: 20px;
+}
+
+.singleOptionofEditionPriceBorder p:nth-of-type(2){
+	color: #989898;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.singleOptionOfEdition > div:nth-of-type(2){
+	color: #777777;
+	font-weight: 700;
+	margin-left: 70px;
+	padding-bottom: 50px;
+	letter-spacing: 1px;
+}
+
+.singleOptionOfEdition > a{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 6px 8px;
+	color: black;
+	display: block;
+	width: 150px;
+	border: 1px solid #cdcdcd;
+	border-radius: 50px;
+}
+
+.singleOptionOfEdition > a:hover{
+	background-color: #5db442;
+	color: white;
+}
+
+			/*-----------------SZÓSTA BELKA---------------*/
+.descriptionOfWhatYouBuy{
+	background-color: #ececec;
+	text-align: center;
+}
+
+.singleDescriptionOfWhatYouBuy{
+	width: 280px;
+	height: 330px;
+	border: 1px solid #cdcdcd;
+	box-shadow: 9px 9px 13px -1px rgba(216,216,216,1);
+	-webkit-box-shadow: 9px 9px 13px -1px rgba(216,216,216,1);
+	-moz-box-shadow: 9px 9px 13px -1px rgba(216,216,216,1);
+	margin-bottom: 30px;
+}
+
+.marginLeft{
+	margin-left: 25px;
+}
+
+.singleDescriptionOfWhatYouBuy:nth-of-type(-n+4){
+	margin-top: 30px;
+}
+
+.singleDescriptionOfWhatYouBuy:nth-of-type(n+5){
+	margin-bottom: 110px;
+}
+
+.singleDescriptionOfWhatYouBuy > hr{
+	height: 1.2px;
+	width: 30%;
+	margin: 0 auto;
+	background-color: #cdcdcd;
+}
+
+.singleDescriptionOfWhatYouBuy > p{
+	color: #989898;
+	font-size: 14px;
+	margin: 15px 30px;
+	line-height: 24px;
+}
+
+	/*--------STOPKA--------*/
+.lastInformations{
+	background-color: #ddd9d9;
+}
+
+.lastInformations > .width > div{
+	margin-top: 50px;
+}
+
+.lastInformations > .width > div:nth-of-type(n+2){
+	margin-left: 180px;
+}
+
+.lastInformations > .width > div > p{
+	color: black;
+	margin-bottom: 25px;
+}
+
+input[placeholder="enter your email"]{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+input[value=">"]{
+	background-color: #5db442;
+	height: 38px;
+	width: 50px;
+	color: white;
+	position: relative;
+	right: 5px;
+}
+
+.lastInformations ul{
+	list-style: none;
+}
+
+.lastInformations a{
+	color: #474747;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+footer{
+	background-color: #ddd9d9;
+	border-top: 1px solid #e1e2e3;
+}
+
+footer > p:nth-of-type(1){
+	font-family: 'Expletus Sans', cursive;
+	color: #636666;
+	font-size: 12px;
+}
+
+footer > p:nth-of-type(2){
+	font-size: 9.5px;
+}

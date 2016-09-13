@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?91201479');
+  src: url('../font/fontello.eot?91201479#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?91201479') format('woff2'),
+       url('../font/fontello.woff?91201479') format('woff'),
+       url('../font/fontello.ttf?91201479') format('truetype'),
+       url('../font/fontello.svg?91201479#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?91201479#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+
+.icon-phone:before { content: '\e801'; 
+  color: white;
+} /* '' */
+.icon-mail:before { content: '\e802'; 
+  color:white;
+} /* '' */
+
+.icon-ok-circled2:before { content: '\e804'; 
+  color: #5db442;
+} /* '' */
+
+.icon-edit:before { content: '\e806'; 
+  color: #5db442;
+} /* '' */
+
+
+.icon-twitter:before { content: '\f099'; 
+  color: white;
+} /* '' */
+.icon-facebook:before { content: '\f09a'; 
+  color: white;
+} /* '' */
+.icon-gplus:before { content: '\f0d5';
+  color: white;
+ } /* '' */
+.icon-linkedin:before { content: '\f0e1';
+  color: white;
+ } /* '' */
+
+.icon-unlink:before { content: '\f127'; 
+  color: #5db442;
+} /* '' */
+
+
+
+/*ikony do diva descriptionOfWhatYouBuy*/
+.icon-cogs:before { content: '\e800'; 
+color: #5db442;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 25px;
+} /* '' */
+.icon-paper-plane-empty:before { content: '\f1d9'; 
+color: #5db442;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 25px;
+} /* '' */
+.icon-leaf:before { content: '\e807'; 
+color: #5db442;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 25px;
+} /* '' */
+.icon-login:before { content: '\e803'; 
+color: #5db442;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 25px;
+} /* '' */
+.icon-emo-happy:before { content: '\e805'; 
+color: #5db442;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 25px;
+} /* '' */
+.icon-folder-open:before { content: '\e808'; 
+color: #5db442;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 25px;
+} /* '' */
+.icon-coffee:before { content: '\f0f4'; 
+color: #5db442;
+font-size: 50px;
+padding-top: 30px;
+padding-bottom: 25px;
+} /* '' */
